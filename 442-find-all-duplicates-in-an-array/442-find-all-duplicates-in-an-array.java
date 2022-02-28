@@ -4,12 +4,16 @@ class Solution
     {
         int n=nums.length;
         List<Integer>answer=new ArrayList<>();
-        Arrays.sort(nums);
-        for(int i=0;i<n-1;i++)
+        int[]freq=new int[n+1];
+        for(int num:nums)
         {
-            if(nums[i]==nums[i+1])
+            freq[num]++;
+        }
+        for(int i=0;i<n+1;i++)
+        {
+            if(freq[i]==2)
             {
-                answer.add(nums[i]);
+                answer.add(i);
             }
         }
         return answer;
