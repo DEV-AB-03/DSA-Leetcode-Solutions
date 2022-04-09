@@ -114,38 +114,41 @@ class Solution
         return;
         
     }
-    public static void  function(Node head){
+    public static void  function(Node head)
+    {
         Node fast=head,slow=head;
         boolean flag=false;
-        
-        
-        while(fast.next!=null && fast.next.next!=null){
+        while(fast.next!=null && fast.next.next!=null)
+        {
             slow=slow.next;
             fast=fast.next.next;
-            if(slow==fast){
+            if(slow==fast)
+            {
                 flag=true;
                 break;
             }
         }
         
-        if(flag){
-            if(slow==head && fast==head){
-            
-            while(slow!=fast.next){
+        if(flag)
+        {
+            if(slow==head && fast==head)
+            {
+            while(slow!=fast.next)
+            {
                 fast=fast.next;
             }
             fast.next=null;
-        }else{
+        }
+        else
+        {
             slow=head;
-            while(slow.next!=fast.next){
+            while(slow.next!=fast.next)
+            {
                 slow=slow.next;
                 fast=fast.next;
             }
             fast.next=null;
         }
         }
-        
-        
-        
     }
 }
