@@ -10,25 +10,41 @@
  */
 class Solution 
 {
-    public boolean isPalindrome(ListNode head) 
+    public ListNode reverse(ListNode head)
     {
-        //STACK
         ListNode curr=head;
-        Stack<Integer>st=new Stack<>();
+        ListNode prev=null;
         while(curr!=null)
         {
-            st.push(curr.val);
-            curr=curr.next;
+            ListNode temp=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=temp;
         }
-        ListNode chkr=head;
-        while(chkr!=null)
+        return prev;
+    }
+    public boolean isPalindrome(ListNode head) 
+    {
+        //Find middle of ll and then reverse second half
+        ListNode fast=head;
+        ListNode slow=head;
+        while(fast!=null && fast.next!=null)
         {
-            if(chkr.val!=st.peek())
+            fast=fast.next.next;
+            slow=slow.next;
+        }
+        //Reverse second half
+        fast=reverse(slow);
+        slow=head;
+        //Now compare values
+        while(fast!=null && slow!=null)
+        {
+            if(fast.val!=slow.val)
             {
                 return false;
             }
-            st.pop();
-            chkr=chkr.next;
+            fast=fast.next;
+            slow=slow.next;
         }
         return true;
     }
