@@ -3,6 +3,7 @@ class Solution
     public int climbStairs(int n) 
     {
         //Similar to fibonacci number
+        //Tabulation Method
         if(n<=1)
         {
             return n;
