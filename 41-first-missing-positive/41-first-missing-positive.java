@@ -1,28 +1,30 @@
-class Solution 
-{
-    public int firstMissingPositive(int[] nums) 
-    {
-        int n = nums.length;
-        for(int i=0; i<n; i++){
-            if(nums[i]<1 || nums[i]>n){
-                nums[i] = n+1;
+class Solution {
+static int firstMissingPositive(int[] arr){
+        int i=0;
+        while(i<arr.length){
+            // correct is the index where the ith element should actually be
+            int correct = arr[i] - 1;
+            if(arr[i]>0 && arr[i]<=arr.length && arr[i]!=arr[correct]){ /* First condition: Ignoring the negatives Second condition: If element=length of the array, just ignore it and move ahead */
+                swap(arr,i,correct); // swap if not at the correct position
+            }else{
+                i++; // else move ahead
             }
         }
-        for(int i=0; i<n; i++)
-        {
-            int index = Math.abs(nums[i])-1;
-            if(index<n && nums[index]>0)
-            {
-                nums[index] = -1*nums[index];
+
+        // search for first missing number
+        for (int index = 0; index < arr.length; index++) {
+            if(arr[index]!=index + 1){
+                return index + 1;
             }
         }
-        for(int i=0; i<n; i++)
-        {
-            if(nums[i]>0)
-            {
-                return i+1;
-            }
-        }
-        return n+1;
+
+        // case 2
+        return arr.length + 1;
+    }
+
+    static void swap(int[] arr, int first, int second){
+        int temp=arr[first];
+        arr[first]=arr[second];
+        arr[second]=temp;
     }
 }
