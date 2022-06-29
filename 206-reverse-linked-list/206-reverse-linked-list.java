@@ -12,26 +12,15 @@ class Solution
 {
     public ListNode reverseList(ListNode head) 
     {
-        ListNode temp=head;
-        if(head==null)
+        //RECURSION SOLUTION
+        if(head==null||head.next==null)
         {
             return head;
         }
-        Stack<ListNode>st=new Stack<>();
-        while(temp.next!=null)
-        {
-            st.push(temp);
-            temp=temp.next;
-        }
-        head=temp;
-        while(!st.empty())
-        {
-            ListNode node=st.peek();
-            temp.next=node;
-            st.pop();
-            temp=temp.next;
-        }
-        temp.next=null;
-        return head;
+        ListNode newhead=reverseList(head.next);
+        ListNode headnext=head.next;
+        headnext.next=head;
+        head.next=null;
+        return newhead;
     }
 }
