@@ -18,8 +18,8 @@ class Solution
                     row.add(pre.get(j)+pre.get(j-1));
                 }
             }
-            pre=row;
             answer.add(row);
+            pre=row;
         }
         return answer;
     }
