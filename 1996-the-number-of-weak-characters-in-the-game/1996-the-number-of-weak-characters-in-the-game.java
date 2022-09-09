@@ -2,27 +2,29 @@ class Solution
 {
     public int numberOfWeakCharacters(int[][] properties) 
     {
-        //Stack Approach
-        //We have to Maintain the max value so far so we do stack
-        Arrays.sort(properties,new Comparator<>(){
-            public int compare(int[] a, int[] b){
-                if(a[0]!=b[0]) return a[0]-b[0];
-                else return b[1]-a[1];
+        Arrays.sort(properties, new Comparator<int[]>() 
+                    { // sorting based on array elements
+            public int compare(int[] a, int[] b) {
+                if (a[0] == b[0]) {
+                    return a[1] - b[1];
+                }
+                return b[0] - a[0];
             }
         });
-        int n=properties.length;
-        int max=properties[n-1][1]; //So far this is the max value after sorting
-        int weak=0;
-        for(int i=n-2;i>=0;i--)
+        Stack<int[]> s = new Stack<int[]>();
+        s.push(properties[0]);
+        int count = 0;
+        for (int i = 1; i < properties.length; i++) 
         {
-            if(properties[i][1]<max)
-            {
-                weak++;
+            if (properties[i][0] < s.peek()[0] && properties[i][1] < s.peek()[1]) 
+            { // since s.peek() is greater array than properties[i] so we will increment the count
+                count++;
             }
-            max=Math.max(max,properties[i][1]);
+            else 
+            {
+                s.push(properties[i]); // push the max array into the stack
+            }
         }
-        return weak;
-        
-        
+        return count;
     }
 }
