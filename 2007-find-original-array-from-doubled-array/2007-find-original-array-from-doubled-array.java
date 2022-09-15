@@ -1,52 +1,62 @@
-class Solution {
-    public int[] findOriginalArray(int[] changed) {
-        
-        // if we don't have an even length array then this is not valid
-        if (changed.length % 2 != 0) return new int[]{};
-        
-        // sort the array in ascending order
-        Arrays.sort(changed);
-        
-        // create a hashmap that contains each value in the input array 
-        // and its corresponding frequency 
-        HashMap<Integer, Integer> freqMap = new HashMap();
-        for(int i = 0; i < changed.length; i++) {
-            int curr = changed[i];
-            freqMap.put(curr, freqMap.getOrDefault(curr, 0) + 1);
+class Solution 
+{
+    public void decrementinMap(Map<Integer,Integer>map,int key)
+    {
+        if(map.get(key)==1)
+        {
+            map.remove(key);
         }
-    
-        // the final array should be half the size of the input array
-        int[] result = new int[changed.length / 2];
-        int index = 0;
-        for(int i: changed) {
-            // edge case: if the nubmer is 0, then the double is also 0
-            //and we must decrement by 2
-            if (i == 0 && freqMap.containsKey(0) && freqMap.get(0) >= 2) {
-                decrementValue(freqMap, 0, 2);
-                result[index] = 0;
-                index++;
-            } else if (i != 0 
-                       && freqMap.containsKey(i) 
-                       && freqMap.containsKey(i * 2)) {
-                // if a value and its double is in the map, then decrement both values
-                decrementValue(freqMap, i, 1);
-                decrementValue(freqMap, i * 2, 1);
-                result[index] = i;
-                index++;
-            } 
+        else
+        {
+            map.put(key,map.get(key)-1);
         }
-        
-        if (freqMap.size() > 0) return new int[]{};
-        
-        return result;
     }
-    
-    // decrments the frequency of a particular key in the hashmap.  If we end up at 0 frequency,
-    // we will remvove the key from the map
-    public void decrementValue(HashMap<Integer, Integer> freqMap, int value, int amount) {
-        freqMap.put(value, freqMap.get(value) - amount);
-        if (freqMap.get(value) == 0) {
-            freqMap.remove(value);
+    public int[] findOriginalArray(int[] changed) 
+    {
+        if(changed.length%2!=0)
+        {
+            return new int[]{};
         }
+        //Hashing Approach
+        //So the idea is that if we find a pair such that element and its double exist in the aray then we remove it.
+        
+        //We keep on doing so such that there exists no element in the array
+        //Then we return the array is such case is achieved
+        //Else even if one element exists in the array then we return empty array as it doesnt match the conditions
+        
+        //So first we sort the array so that we can get the smallest elements first
+        //Smallest elements are the ones whose halves wont exist in array as they are the first ones in array
+        
+        //Now sort the array
+        Arrays.sort(changed);
+        HashMap<Integer,Integer>map=new HashMap<>();
+        int[]originalArray=new int[changed.length/2];
+        int idx=0;
+        //Now iterate over the array to satisfy the conditions
+        for(int ele:changed)
+        {
+            if(ele%2==0 && map.containsKey(ele/2))
+            {
+                decrementinMap(map,ele/2);
+                originalArray[idx]=ele/2;
+                idx++;
+            }
+            else if(map.containsKey(2*ele))
+            {
+                decrementinMap(map,2*ele);
+                originalArray[idx]=ele;
+                idx++;
+            }
+            else
+            {
+                map.put(ele,map.getOrDefault(ele,0)+1);
+            }
+        }
+        if(idx==originalArray.length)
+        {
+            return originalArray;
+        }
+        return new int[]{};
+        
     }
 }
