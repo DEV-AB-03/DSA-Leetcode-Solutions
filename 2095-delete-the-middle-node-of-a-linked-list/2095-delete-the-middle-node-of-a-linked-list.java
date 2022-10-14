@@ -21,8 +21,8 @@ class Solution
         
         // Let 'fast' move forward by 2 nodes, 'slow' move forward by 1 node each step.
         while (fast != null && fast.next != null) {
-            slow = slow.next;
             fast = fast.next.next;
+            slow = slow.next;
         }
         
         // When 'fast' reaches the end, remove the next node of 'slow' and return 'head'.
