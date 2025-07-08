@@ -1,33 +1,35 @@
-class Solution 
-{
-    public void countseq(int index,int target,int[]a, List<List<Integer>> answer,List<Integer>ds)
-    {
-        //Base Case
-        if(index==a.length)
-        {
-            if(target==0)
-            {
-                answer.add(new ArrayList<>(ds));
+class Solution {
+    public void backtrack(List<List<Integer>> ans, List<Integer> temp, int[] candidates, int target, int index,
+            int sum) {
+        // Terminal Conditions
+        if (sum > target) {
+            // Only add this terminal condition when the array contains only positoive integers
+            return;
+        }
+        // If index reaches end or target goes negative, stop
+        if (index == candidates.length) {
+            if (sum == target) {
+                ans.add(new ArrayList<>(temp));
             }
             return;
         }
-        
-        //Take Condition
-        if(a[index]<=target)
-        {
-            ds.add(a[index]);
-            countseq(index,target-a[index],a,answer,ds);
-            ds.remove(ds.size()-1);  //BackTracking Here
+
+        // Include the current element
+        if (sum + candidates[index] <= target) {
+            temp.add(candidates[index]);
+            backtrack(ans, temp, candidates, target, index, sum + candidates[index]); // same index: unlimited use
+            temp.remove(temp.size() - 1); // backtrack
         }
-        
-        //Not Take Condition
-        countseq(index+1,target,a,answer,ds);
+
+        // Exclude the current element and move to next
+        backtrack(ans, temp, candidates, target, index + 1, sum);
     }
-    public List<List<Integer>> combinationSum(int[] candidates, int target) 
-    {
-        //Coin Change Problem
-        List<List<Integer>> answer=new ArrayList<>();
-        countseq(0,target,candidates,answer,new ArrayList<>());
-        return answer;
+
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        // Back Tracking Solution
+        List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> temp = new ArrayList<>();
+        backtrack(ans, temp, candidates, target, 0, 0);
+        return ans;
     }
 }
