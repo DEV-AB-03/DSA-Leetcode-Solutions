@@ -1,32 +1,19 @@
 class Solution {
-    public int jump(int step, int n, int[] dp) {
-        if (step > n) {
-            // No need to recurse further. Come back to previous state
-            return 0;
-        }
-        if (step == n) {
-            // We have reached last step
-            return 1;
-        }
-
-        if (dp[step] != -1) {
-            return dp[step];
-        }
-
-        // Explore all Paths
-        int oneStepJump = jump(step + 1, n, dp);
-
-        int twoStepJump = jump(step + 2, n, dp);
-
-        dp[step] = oneStepJump + twoStepJump;
-
-        return dp[step];
-    }
-
     public int climbStairs(int n) {
-        // Solve it by Memoization
+        if (n == 0)
+            return 0;
+        if (n == 1)
+            return 1;
+        if (n == 2)
+            return 2;
         int[] dp = new int[n + 1];
-        Arrays.fill(dp, -1);
-        return jump(0, n, dp);
+        dp[0] = 0;
+        dp[1] = 1;
+        dp[2] = 2;
+
+        for (int i = 3; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n];
     }
 }
