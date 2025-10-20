@@ -16,7 +16,7 @@ class Solution {
         return s.substring(n - b) + s.substring(0, n - b);
     }
 
-    public void dfs(String s, int a, int b, List<String> vis) {
+    public void dfs(String s, int a, int b, Set<String> vis) {
         if (vis.contains(s)) {
             return;
         }
@@ -36,7 +36,7 @@ class Solution {
     public String findLexSmallestString(String s, int a, int b) {
         // DFS Approach
         // This is essentially a graphs problem where each node is a string
-        List<String> vis = new ArrayList<>();
+        Set<String> vis = new HashSet<>();
         smallest = s;
         dfs(s, a, b, vis);
         return smallest;
