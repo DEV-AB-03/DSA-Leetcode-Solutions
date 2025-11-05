@@ -1,119 +1,101 @@
-class Helper {
-
-    private int x;
-    private long result;
-    private TreeSet<Pair> large, small;
-    private Map<Integer, Integer> occ;
-
-    private static class Pair implements Comparable<Pair> {
-
-        int first;
-        int second;
-
-        Pair(int first, int second) {
-            this.first = first;
-            this.second = second;
-        }
-
-        @Override
-        public int compareTo(Pair other) {
-            if (this.first != other.first) {
-                return Integer.compare(this.first, other.first);
-            }
-            return Integer.compare(this.second, other.second);
-        }
-
-        @Override
-        public boolean equals(Object obj) {
-            if (this == obj)
-                return true;
-            if (obj == null || getClass() != obj.getClass())
-                return false;
-            Pair pair = (Pair) obj;
-            return first == pair.first && second == pair.second;
-        }
-
-        @Override
-        public int hashCode() {
-            return Objects.hash(first, second);
-        }
-    }
-
-    public Helper(int x) {
-        this.x = x;
-        this.result = 0;
-        this.large = new TreeSet<>();
-        this.small = new TreeSet<>();
-        this.occ = new HashMap<>();
-    }
-
-    public void insert(int num) {
-        if (occ.containsKey(num) && occ.get(num) > 0) {
-            internalRemove(new Pair(occ.get(num), num));
-        }
-        occ.put(num, occ.getOrDefault(num, 0) + 1);
-        internalInsert(new Pair(occ.get(num), num));
-    }
-
-    public void remove(int num) {
-        internalRemove(new Pair(occ.get(num), num));
-        occ.put(num, occ.get(num) - 1);
-        if (occ.get(num) > 0) {
-            internalInsert(new Pair(occ.get(num), num));
-        }
-    }
-
-    public long get() {
-        return result;
-    }
-
-    private void internalInsert(Pair p) {
-        if (large.size() < x || p.compareTo(large.first()) > 0) {
-            result += (long) p.first * p.second;
-            large.add(p);
-            if (large.size() > x) {
-                Pair toRemove = large.first();
-                result -= (long) toRemove.first * toRemove.second;
-                large.remove(toRemove);
-                small.add(toRemove);
-            }
-        } else {
-            small.add(p);
-        }
-    }
-
-    private void internalRemove(Pair p) {
-        if (p.compareTo(large.first()) >= 0) {
-            result -= (long) p.first * p.second;
-            large.remove(p);
-            if (!small.isEmpty()) {
-                Pair toAdd = small.last();
-                result += (long) toAdd.first * toAdd.second;
-                small.remove(toAdd);
-                large.add(toAdd);
-            }
-        } else {
-            small.remove(p);
-        }
-    }
-}
-
 class Solution {
+    class Pair implements Comparable<Pair> {
+        int num;
+        int freq;
+
+        Pair(int num, int freq) {
+            this.num = num;
+            this.freq = freq;
+        }
+
+        @Override
+        public int compareTo(Pair p) {
+            // ascending by freq then num
+            if (this.freq == p.freq) {
+                return this.num - p.num; // smallest by number
+            }
+            return this.freq - p.freq; // smallest by freq
+        }
+    }
+
+    long sum;
+    TreeSet<Pair> top;
+    TreeSet<Pair> rest;
+
+    public void insertInSet(int num, int freq, int x) {
+        Pair p = new Pair(num, freq);
+        if (top.size() < x || p.compareTo(top.first()) > 0) { // if top set doesnt have x elements or this pair > top's smallest
+            sum += (long) p.num * p.freq; // update sum
+            top.add(p); // add this pair to top set
+
+            if (top.size() > x) { // if top size exceeded ( > x ) 
+                Pair smallest = top.first(); // remove smallest from top set
+                sum -= (long) smallest.num * smallest.freq; // update sum again
+                top.remove(smallest); // remove
+                rest.add(smallest); // add it to the other i.e rest set
+            }
+        } else { // when top have x elements and this pair is not > top's smallest
+            rest.add(p); // just add it to the rest set
+        }
+    }
+
+    public void removeFromSet(int num, int freq, int x) {
+        Pair p = new Pair(num, freq);
+        if (top.contains(p)) { // if this pair is in top set
+            sum -= (long) p.num * p.freq; // update sum
+            top.remove(p); // and remove it from top
+
+            if (rest.size() != 0) { // if rest has some pairs
+                Pair largest = rest.last(); // pick the largest pair
+                sum += (long) largest.num * largest.freq; // update sum
+                top.add(largest); // and add the largest pair to top
+                rest.remove(largest); // then remove it from rest set
+            }
+        } else { // if this pair is in rest
+            rest.remove(p); // just remove it
+        }
+    }
 
     public long[] findXSum(int[] nums, int k, int x) {
-        Helper helper = new Helper(x);
-        List<Long> ans = new ArrayList<>();
+        int n = nums.length;
+        long[] result = new long[n - k + 1]; // ans
 
-        for (int i = 0; i < nums.length; i++) {
-            helper.insert(nums[i]);
-            if (i >= k) {
-                helper.remove(nums[i - k]);
+        HashMap<Integer, Integer> map = new HashMap<>(); // will store num and its freq
+
+        // Sets
+        top = new TreeSet<>(); // will store top x
+        rest = new TreeSet<>(); // will store remainings
+        sum = 0; // will store sum of top x 
+
+        int i = 0;
+        int j = 0;
+        int a = 0; // just to fill the result
+        while (j < n) {
+            if (map.containsKey(nums[j])) { // if it is in map => definitely present in one of the sets
+                removeFromSet(nums[j], map.get(nums[j]), x); // remove old pair
             }
-            if (i >= k - 1) {
-                ans.add(helper.get());
+
+            map.put(nums[j], map.getOrDefault(nums[j], 0) + 1); // update freq of this element
+            insertInSet(nums[j], map.get(nums[j]), x); // insert new pair
+
+            if (j - i + 1 == k) { // when window completed
+                result[a++] = sum; // fill the result
+
+                // move the window
+
+                removeFromSet(nums[i], map.get(nums[i]), x); // remove ith element from pair
+                map.put(nums[i], map.get(nums[i]) - 1); // decrease the freq of ith by 1 in map
+
+                if (map.get(nums[i]) == 0) { // if ith elements's freq becomes 0 
+                    map.remove(nums[i]); // remove from map
+                } else { // not becomes 0
+                         // insert updated freq in set
+                    insertInSet(nums[i], map.get(nums[i]), x); // updated freq
+                }
+                i++; // move forward
             }
+            j++; // move forward
         }
-
-        return ans.stream().mapToLong(Long::longValue).toArray();
+        return result;
     }
 }
