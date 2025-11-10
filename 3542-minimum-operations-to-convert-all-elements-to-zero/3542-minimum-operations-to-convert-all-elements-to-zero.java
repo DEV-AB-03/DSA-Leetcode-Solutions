@@ -1,26 +1,30 @@
 class Solution {
     public int minOperations(int[] nums) {
-        int n = nums.length;
-        Stack<Integer> st = new Stack<>(); //Monotonic Stack
-        int ans = 0;
-        int i = 0;
+        // Create a stack array to simulate the stack behavior.
+        // The size is nums.length + 1 to handle the initial dummy value at stack[0].
+        int stack[] = new int[nums.length + 1];
 
-        while (i < n) { // iterating
-            while (!st.isEmpty() && st.peek() > nums[i]) {
-                st.pop();
-            } // removing larger elements
+        // This variable will store the total number of "pop" operations needed.
+        int result = 0;
 
-            if (st.isEmpty() || nums[i] > st.peek()) {
-                if (nums[i] != 0) // edge case
-                    ans++; // counting operations
+        // 'top' points to the current top of the stack.
+        int top = 0;
 
-                st.push(nums[i]); // pushing in stack
+        // Iterate through each number in the input array.
+        for (int i = 0; i < nums.length; i++) {
+            // While the top of the stack is greater than the current number,
+            // pop elements from the stack and increment the result counter.
+            while (stack[top] > nums[i]) {
+                result++;
+                top--;
             }
-
-            i++;
+            // If the current number is not equal to the top of the stack,
+            // push it onto the stack.
+            if (stack[top] != nums[i]) {
+                stack[++top] = nums[i];
+            }
         }
-
-        return ans;
-
+        // The answer is the total number of pops plus the number of elements left in the stack (excluding the dummy).
+        return result + top;
     }
 }
