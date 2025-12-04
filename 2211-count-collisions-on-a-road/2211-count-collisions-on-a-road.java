@@ -1,24 +1,43 @@
 class Solution {
     public int countCollisions(String directions) {
-        int n = directions.length();
-        int left = 0, right = n - 1;
-
-        // Skip all L's on the left side (they move left forever)
-        while (left < n && directions.charAt(left) == 'L') {
-            left++;
-        }
-
-        // Skip all R's on the right side (they move right forever)
-        while (right >= 0 && directions.charAt(right) == 'R') {
-            right--;
-        }
-
+        Stack<Character> stack = new Stack<>();
         int collisions = 0;
-        // Count all L and R in the "middle" segment
-        for (int i = left; i <= right; i++) {
-            char c = directions.charAt(i);
-            if (c == 'L' || c == 'R') {
-                collisions++;
+
+        for (char c : directions.toCharArray()) {
+
+            if (c == 'R') {
+                // Just push, no collision yet
+                stack.push('R');
+            } else if (c == 'S') {
+                // All previous R become S with +1 collision each
+                while (!stack.isEmpty() && stack.peek() == 'R') {
+                    collisions += 1;
+                    stack.pop();
+                }
+                stack.push('S');
+            } else { // c == 'L'
+                     // Case: R ... meets L
+                if (!stack.isEmpty() && stack.peek() == 'R') {
+                    // First collision R-L → +2
+                    collisions += 2;
+                    stack.pop();
+
+                    // Convert this L to S
+                    // Now clear remaining R’s
+                    while (!stack.isEmpty() && stack.peek() == 'R') {
+                        collisions += 1;
+                        stack.pop();
+                    }
+
+                    stack.push('S'); // finally push stationary
+                } else if (!stack.isEmpty() && stack.peek() == 'S') {
+                    // S-L → +1
+                    collisions += 1;
+                    stack.push('S');
+                } else {
+                    // Leading L → nothing happens
+                    stack.push('L');
+                }
             }
         }
 
