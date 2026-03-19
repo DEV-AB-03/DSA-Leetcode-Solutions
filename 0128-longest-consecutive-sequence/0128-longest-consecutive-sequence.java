@@ -13,6 +13,7 @@ class Solution {
                 while (set.contains(num + length)) {
                     length++;
                 }
+                num=num+1;
                 maxLength = Math.max(maxLength, length);
             }
         }
