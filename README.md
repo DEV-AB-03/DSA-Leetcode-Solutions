@@ -9,27 +9,32 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
+| [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 ## Binary Search
