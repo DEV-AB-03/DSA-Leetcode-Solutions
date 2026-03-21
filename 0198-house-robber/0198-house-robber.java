@@ -1,25 +1,25 @@
 class Solution {
-    public int dfs(int[] nums, int houseNumber, int[] dp) {
-        if (houseNumber >= nums.length) {
+    public int dfs(int index, int[] nums, int[] dp) {
+        // Base Case
+        if (index >= nums.length) {
             return 0;
         }
-        if (dp[houseNumber] != -1) {
-            return dp[houseNumber];
+        if (dp[index] != -1) {
+            return dp[index];
         }
-        // Explore all possible Solutions
-        int chooseHouse = nums[houseNumber] + dfs(nums, houseNumber + 2, dp);
-        int notChooseHouse = 0 + dfs(nums, houseNumber + 1, dp);
 
-        // Return Answer to Parent
-        dp[houseNumber] = Math.max(chooseHouse, notChooseHouse);
-        return dp[houseNumber];
+        // Try Out All Ways
+        int choose = nums[index] + dfs(index + 2, nums, dp);
+        int skip = 0 + dfs(index + 1, nums, dp);
+
+        return dp[index] = Math.max(choose, skip);
     }
 
     public int rob(int[] nums) {
-        // Recursive Solution
-        // Memoize Solution
-        int[] dp = new int[nums.length + 1];
+        // Recursion Solution
+        // Memoization Solution
+        int[] dp = new int[nums.length];
         Arrays.fill(dp, -1);
-        return dfs(nums, 0, dp);
+        return dfs(0, nums, dp);
     }
 }
