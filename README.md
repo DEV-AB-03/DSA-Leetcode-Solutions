@@ -18,12 +18,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0207-course-schedule](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0207-course-schedule](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0207-course-schedule/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [0994-rotting-oranges](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0994-rotting-oranges/) | Medium |
@@ -86,4 +88,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0207-course-schedule/) | Medium |
+## Topological Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0207-course-schedule/) | Medium |
 <!---LeetCode Topics End-->
