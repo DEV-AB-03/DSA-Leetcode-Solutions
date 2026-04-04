@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
+| [2075-decode-the-slanted-ciphertext](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 ## Backtracking
@@ -140,5 +141,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2075-decode-the-slanted-ciphertext](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 <!---LeetCode Topics End-->
