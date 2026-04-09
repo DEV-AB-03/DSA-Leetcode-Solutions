@@ -10,31 +10,26 @@
  */
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
-        // Priority Queue -- Keep Duplicates in heap
+        // Min Heap
         PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> a.val - b.val);
 
-        // Add initially heads to PQ
-        for (ListNode head : lists) {
-            if (head != null) {
-                pq.add(head);
+        for (ListNode node : lists) {
+            if (node != null) {
+                pq.offer(node);
             }
         }
 
-        // Create dummy LL
-        ListNode dummy = new ListNode(0);
-        ListNode tail = dummy;
+        ListNode head = new ListNode(-1);
+        ListNode dummy = head;
 
         while (!pq.isEmpty()) {
-            // Poll smallest and then add node if it exists
-            ListNode smallest = pq.poll();
-            tail.next = smallest;
-            tail = tail.next;
-
-            // Add next node of smallest
-            if (smallest.next != null) {
-                pq.add(smallest.next);
+            ListNode pop = pq.poll();
+            dummy.next = pop;
+            dummy = dummy.next;
+            if (pop.next != null) {
+                pq.offer(pop.next);
             }
         }
-        return dummy.next;
+        return head.next;
     }
 }
