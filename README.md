@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0134-gas-station/) | Medium |
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
+| [0238-product-of-array-except-self](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
@@ -165,4 +166,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2075-decode-the-slanted-ciphertext](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
+## Prefix Sum
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0238-product-of-array-except-self/) | Medium |
 <!---LeetCode Topics End-->
