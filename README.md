@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
@@ -89,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0146-lru-cache](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0146-lru-cache/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
