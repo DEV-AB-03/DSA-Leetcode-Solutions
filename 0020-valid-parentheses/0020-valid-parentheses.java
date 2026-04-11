@@ -1,31 +1,20 @@
 class Solution {
     public boolean isValid(String s) {
-        // Odd Length Strings can never be balanced
-        if (s.length() % 2 == 1) {
-            return false;
-        }
+        // Stack Solution
         Stack<Character> st = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            if (ch == '(' || ch == '{' || ch == '[') {
-                st.push(ch);
+            if (s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
+                st.push(s.charAt(i));
             } else {
                 if (st.isEmpty()) {
                     return false;
-                } else if (ch == ')') {
-                    if (st.peek() != '(') {
-                        return false;
-                    }
-                    st.pop();
-                } else if (ch == '}') {
-                    if (st.peek() != '{') {
-                        return false;
-                    }
-                    st.pop();
-                } else if (ch == ']') {
-                    if (st.peek() != '[') {
-                        return false;
-                    }
+                } else if (s.charAt(i) == ')' && st.peek() != '(') {
+                    return false;
+                } else if (s.charAt(i) == ']' && st.peek() != '[') {
+                    return false;
+                } else if (s.charAt(i) == '}' && st.peek() != '{') {
+                    return false;
+                } else {
                     st.pop();
                 }
             }
