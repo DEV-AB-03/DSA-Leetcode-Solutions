@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0056-merge-intervals](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0011-container-with-most-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0134-gas-station](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0134-gas-station/) | Medium |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
@@ -203,4 +205,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1339-maximum-product-of-splitted-binary-tree/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0011-container-with-most-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0011-container-with-most-water/) | Medium |
 <!---LeetCode Topics End-->
