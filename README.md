@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0657-robot-return-to-origin/) | Easy |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1209-remove-all-adjacent-duplicates-in-string-ii/) | Medium |
+| [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
+| [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
