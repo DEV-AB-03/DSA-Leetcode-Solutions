@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1386-cinema-seat-allocation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
+| [2463-minimum-total-distance-traveled](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2672-number-of-adjacent-elements-with-the-same-color](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2672-number-of-adjacent-elements-with-the-same-color/) | Medium |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
@@ -127,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0056-merge-intervals](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
+| [2463-minimum-total-distance-traveled](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
@@ -138,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
+| [2463-minimum-total-distance-traveled](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
