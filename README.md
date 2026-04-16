@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2672-number-of-adjacent-elements-with-the-same-color](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2672-number-of-adjacent-elements-with-the-same-color/) | Medium |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
+| [3488-closest-equal-element-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
@@ -76,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
+| [3488-closest-equal-element-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
@@ -111,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3488-closest-equal-element-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 ## Linked List
