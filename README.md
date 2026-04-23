@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2463-minimum-total-distance-traveled](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [2615-sum-of-distances](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2615-sum-of-distances/) | Medium |
 | [2672-number-of-adjacent-elements-with-the-same-color](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2672-number-of-adjacent-elements-with-the-same-color/) | Medium |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0874-walking-robot-simulation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0874-walking-robot-simulation/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
+| [2615-sum-of-distances](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2615-sum-of-distances/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
+| [2615-sum-of-distances](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2615-sum-of-distances/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
