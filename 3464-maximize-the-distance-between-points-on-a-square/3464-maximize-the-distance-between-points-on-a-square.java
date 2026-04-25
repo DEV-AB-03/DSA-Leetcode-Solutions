@@ -1,109 +1,73 @@
-import java.util.*;
-
 class Solution {
 
-    int side;
-    long perimeter;
-    long[] pos;
-    int n;
+    public int maxDistance(int side, int[][] points, int k) {
+        List<Long> arr = new ArrayList<>();
 
-    // Convert (x,y) boundary point into perimeter distance
-    private long getPos(int x, int y) {
-        if (y == 0)
-            return x; // bottom
-        if (x == side)
-            return side + y; // right
-        if (y == side)
-            return 3L * side - x; // top
-        return 4L * side - y; // left
+        for (int[] p : points) {
+            int x = p[0];
+            int y = p[1];
+            if (x == 0) {
+                arr.add((long) y);
+            } else if (y == side) {
+                arr.add((long) side + x);
+            } else if (x == side) {
+                arr.add(side * 3L - y);
+            } else {
+                arr.add(side * 4L - x);
+            }
+        }
+        Collections.sort(arr);
+
+        long lo = 1;
+        long hi = side;
+        int ans = 0;
+
+        while (lo <= hi) {
+            long mid = (lo + hi) / 2;
+            if (check(arr, side, k, mid)) {
+                lo = mid + 1;
+                ans = (int) mid;
+            } else {
+                hi = mid - 1;
+            }
+        }
+        return ans;
     }
 
-    public boolean isValid(int[][] points, int k, int d) {
+    private boolean check(List<Long> arr, int side, int k, long limit) {
+        long perimeter = side * 4L;
 
-        if (k == 1)
-            return true;
+        for (long start : arr) {
+            long end = start + perimeter - limit;
+            long cur = start;
 
-        long[] arr = new long[2 * n];
-
-        for (int i = 0; i < n; i++) {
-            arr[i] = pos[i];
-            arr[i + n] = pos[i] + perimeter;
-        }
-
-        // next[i] = first point at distance >= d
-        int[] next = new int[2 * n];
-        int j = 0;
-
-        for (int i = 0; i < 2 * n; i++) {
-            j = Math.max(j, i + 1);
-
-            while (j < 2 * n && arr[j] - arr[i] < d) {
-                j++;
-            }
-
-            next[i] = j;
-        }
-
-        // Try every point as starting point
-        for (int start = 0; start < n; start++) {
-
-            int cur = start;
-            int taken = 1;
-
-            while (taken < k) {
-                cur = next[cur];
-
-                if (cur >= start + n)
+            for (int i = 0; i < k - 1; i++) {
+                int idx = lowerBound(arr, cur + limit);
+                if (idx == arr.size() || arr.get(idx) > end) {
+                    cur = -1;
                     break;
-
-                taken++;
+                }
+                cur = arr.get(idx);
             }
 
-            if (taken < k)
-                continue;
-
-            // Check circular distance between last and first
-            long clockwise = arr[cur] - arr[start];
-            long otherSide = perimeter - clockwise;
-
-            if (otherSide >= d)
+            if (cur >= 0) {
                 return true;
+            }
         }
-
         return false;
     }
 
-    public int maxDistance(int side, int[][] points, int k) {
-
-        this.side = side;
-        this.perimeter = 4L * side;
-        this.n = points.length;
-
-        pos = new long[n];
-
-        for (int i = 0; i < n; i++) {
-            pos[i] = getPos(points[i][0], points[i][1]);
-        }
-
-        Arrays.sort(pos);
-
-        // Binary Search
-        int low = 0;
-        int high = 2 * side;
-        int ans = -1;
-
-        while (low <= high) {
-
-            int mid = low + (high - low) / 2;
-
-            if (isValid(points, k, mid)) {
-                ans = mid;
-                low = mid + 1;
+    private int lowerBound(List<Long> arr, long target) {
+        int left = 0;
+        int right = arr.size();
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (arr.get(mid) < target) {
+                left = mid + 1;
             } else {
-                high = mid - 1;
+                right = mid;
             }
         }
-
-        return ans;
+        return left;
     }
 }
