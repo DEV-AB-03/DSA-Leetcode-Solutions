@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0396-rotate-function](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0396-rotate-function/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
+| [0396-rotate-function](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0396-rotate-function/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
@@ -281,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0396-rotate-function](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0396-rotate-function/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
