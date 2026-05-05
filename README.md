@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0061-rotate-list](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0061-rotate-list/) | Medium |
 | [0146-lru-cache](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0146-lru-cache/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0011-container-with-most-water/) | Medium |
+| [0061-rotate-list](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0061-rotate-list/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 ## Math
 | Problem Name | Difficulty |
