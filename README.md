@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2553-separate-the-digits-in-an-array](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2553-separate-the-digits-in-an-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2615-sum-of-distances](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2615-sum-of-distances/) | Medium |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2672-number-of-adjacent-elements-with-the-same-color](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2672-number-of-adjacent-elements-with-the-same-color/) | Medium |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
@@ -180,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
 | [2540-minimum-common-value](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2540-minimum-common-value/) | Easy |
 | [2615-sum-of-distances](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2615-sum-of-distances/) | Medium |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3488-closest-equal-element-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3488-closest-equal-element-queries/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
@@ -305,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1386-cinema-seat-allocation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
