@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2672-number-of-adjacent-elements-with-the-same-color](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2672-number-of-adjacent-elements-with-the-same-color/) | Medium |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
+| [3093-longest-common-suffix-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3225-maximum-score-from-grid-operations](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2833-furthest-point-from-origin](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3093-longest-common-suffix-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3120-count-the-number-of-special-characters-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 ## Backtracking
@@ -350,6 +352,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+| [3093-longest-common-suffix-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3093-longest-common-suffix-queries/) | Hard |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
