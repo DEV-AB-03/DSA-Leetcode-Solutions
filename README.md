@@ -96,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -356,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1339-maximum-product-of-splitted-binary-tree/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -381,6 +383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
