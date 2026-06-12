@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3488-closest-equal-element-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3488-closest-equal-element-queries/) | Medium |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1559-detect-cycles-in-2d-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3660-jump-game-ix](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3660-jump-game-ix/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3742-maximum-path-score-in-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
@@ -352,12 +355,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1386-cinema-seat-allocation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1339-maximum-product-of-splitted-binary-tree/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -384,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
+| [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3753-total-waviness-of-numbers-in-range-ii/) | Hard |
