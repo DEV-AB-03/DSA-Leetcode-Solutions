@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3093-longest-common-suffix-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3161-block-placement-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3161-block-placement-queries/) | Hard |
 | [3225-maximum-score-from-grid-operations](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3300-minimum-element-after-replacement-with-digit-sum/) | Easy |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3629-minimum-jumps-to-reach-end-via-prime-teleportation/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -145,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3225-maximum-score-from-grid-operations](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3225-maximum-score-from-grid-operations/) | Hard |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3742-maximum-path-score-in-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3742-maximum-path-score-in-a-grid/) | Medium |
 ## Binary Search
@@ -169,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 | [3691-maximum-total-subarray-value-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
 ## String
 | Problem Name | Difficulty |
@@ -294,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0207-course-schedule/) | Medium |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -458,4 +463,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1833-maximum-ice-cream-bars](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1833-maximum-ice-cream-bars/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 <!---LeetCode Topics End-->
