@@ -30,9 +30,6 @@ class Solution {
             if (value > dist[r][c])
                 continue; // stale entry
 
-            if (r == m - 1 && c == n - 1)
-                return value < health;
-
             for (int k = 0; k < 4; k++) {
                 int nr = r + dx[k], nc = c + dy[k];
                 if (nr < 0 || nc < 0 || nr >= m || nc >= n)
