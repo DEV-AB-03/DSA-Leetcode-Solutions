@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0048-rotate-image](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0049-group-anagrams/) | Medium |
+| [0053-maximum-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0056-merge-intervals](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0053-maximum-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
@@ -358,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0023-merge-k-sorted-lists](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0053-maximum-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0053-maximum-subarray/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
