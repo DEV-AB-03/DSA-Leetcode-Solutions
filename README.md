@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2161-partition-array-according-to-given-pivot](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -268,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2126-destroying-asteroids](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
@@ -341,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2078-two-furthest-houses-with-different-colors](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2126-destroying-asteroids](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2126-destroying-asteroids/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
@@ -413,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1861-rotating-the-box](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1861-rotating-the-box/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2161-partition-array-according-to-given-pivot](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2540-minimum-common-value](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2540-minimum-common-value/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
