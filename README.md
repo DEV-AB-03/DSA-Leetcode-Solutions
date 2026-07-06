@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0053-maximum-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0053-maximum-subarray/) | Medium |
+| [0055-jump-game](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0055-jump-game/) | Medium |
 | [0056-merge-intervals](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0056-merge-intervals/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -285,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0053-maximum-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0053-maximum-subarray/) | Medium |
+| [0055-jump-game](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0055-jump-game/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
@@ -338,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0011-container-with-most-water/) | Medium |
+| [0055-jump-game](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0055-jump-game/) | Medium |
 | [0134-gas-station](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0134-gas-station/) | Medium |
 | [0455-assign-cookies](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
