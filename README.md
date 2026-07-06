@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0200-number-of-islands/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0396-rotate-function](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0396-rotate-function/) | Medium |
+| [0455-assign-cookies](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -261,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0049-group-anagrams/) | Medium |
 | [0056-merge-intervals](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0056-merge-intervals/) | Medium |
+| [0455-assign-cookies](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1340-jump-game-v](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1340-jump-game-v/) | Hard |
@@ -335,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0134-gas-station](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0134-gas-station/) | Medium |
+| [0455-assign-cookies](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
@@ -412,6 +415,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0011-container-with-most-water/) | Medium |
 | [0061-rotate-list](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0061-rotate-list/) | Medium |
+| [0455-assign-cookies](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0455-assign-cookies/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1861-rotating-the-box/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
