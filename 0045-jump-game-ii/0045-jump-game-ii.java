@@ -1,39 +1,37 @@
-import java.util.Arrays;
-
 class Solution {
-    public int jump(int[] nums) {
-        int n = nums.length;
-        int[] memo = new int[n];
-        Arrays.fill(memo, -1); // -1 means not calculated yet
-        return dfs(nums, 0, memo);
-    }
-
-    private int dfs(int[] nums, int index, int[] memo) {
-        // Base case: if at or beyond the last index
-        if (index >= nums.length - 1) {
+    public int dfs(int idx, int[] nums, int[] dp) {
+        // Base Case
+        if (idx >= nums.length - 1) {
             return 0;
         }
-
-        // Return cached result if already computed
-        if (memo[index] != -1) {
-            return memo[index];
+        if (dp[idx] != -1) {
+            return dp[idx];
         }
+        int res = Integer.MAX_VALUE;
+        int maxJumps = nums[idx];
 
-        int maxJump = nums[index];
-        int minJumps = Integer.MAX_VALUE;
-
-        // Try all possible jumps from this position
-        for (int step = 1; step <= maxJump; step++) {
-            int nextIndex = index + step;
-            if (nextIndex < nums.length) {
-                int subResult = dfs(nums, nextIndex, memo);
-                if (subResult != Integer.MAX_VALUE) {
-                    minJumps = Math.min(minJumps, 1 + subResult);
+        // Try Out all Ways
+        for (int step = 1; step <= maxJumps; step++) {
+            int nextIdx = idx + step;
+            // Check within Bounds
+            if (nextIdx < nums.length) {
+                // Jump
+                int childResult = dfs(nextIdx, nums, dp);
+                if (childResult != Integer.MAX_VALUE) {
+                    res = Math.min(res, 1 + childResult);
                 }
             }
         }
 
-        memo[index] = minJumps;
-        return memo[index];
+        return dp[idx] = res;
+
+    }
+
+    public int jump(int[] nums) {
+        // Recursion
+        // memoization
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, -1);
+        return dfs(0, nums, dp);
     }
 }
