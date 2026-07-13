@@ -504,6 +504,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1291-sequential-digits](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1291-sequential-digits/) | Medium |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
 ## Counting Sort
 | Problem Name | Difficulty |
