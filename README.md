@@ -207,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0583-delete-operation-for-two-strings](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0657-robot-return-to-origin/) | Easy |
 | [0796-rotate-string](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0796-rotate-string/) | Easy |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1209-remove-all-adjacent-duplicates-in-string-ii/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
@@ -349,6 +350,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0020-valid-parentheses](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0020-valid-parentheses/) | Easy |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1209-remove-all-adjacent-duplicates-in-string-ii/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
@@ -356,6 +358,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
@@ -366,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0134-gas-station/) | Medium |
 | [0455-assign-cookies](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1081-smallest-subsequence-of-distinct-characters/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1386-cinema-seat-allocation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1386-cinema-seat-allocation/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
