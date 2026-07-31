@@ -233,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2833-furthest-point-from-origin](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3093-longest-common-suffix-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3093-longest-common-suffix-queries/) | Hard |
 | [3120-count-the-number-of-special-characters-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2615-sum-of-distances](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2615-sum-of-distances/) | Medium |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3120-count-the-number-of-special-characters-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3120-count-the-number-of-special-characters-i/) | Easy |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3121-count-the-number-of-special-characters-ii/) | Medium |
 | [3312-sorted-gcd-pair-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
@@ -310,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2463-minimum-total-distance-traveled](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2751-robot-collisions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2751-robot-collisions/) | Hard |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3536-maximum-product-of-two-digits](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
@@ -398,6 +401,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2571-minimum-operations-to-reduce-an-integer-to-0](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2571-minimum-operations-to-reduce-an-integer-to-0/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3633-earliest-finish-time-for-land-and-water-rides-i/) | Easy |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3635-earliest-finish-time-for-land-and-water-rides-ii/) | Medium |
 | [3689-maximum-total-subarray-value-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3689-maximum-total-subarray-value-i/) | Medium |
@@ -517,6 +521,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2833-furthest-point-from-origin](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2833-furthest-point-from-origin/) | Easy |
+| [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3016-minimum-number-of-pushes-to-type-word-ii/) | Medium |
 | [3312-sorted-gcd-pair-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 ## Geometry
