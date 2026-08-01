@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0396-rotate-function](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0396-rotate-function/) | Medium |
 | [0455-assign-cookies](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0485-max-consecutive-ones/) | Easy |
+| [0486-predict-the-winner](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0778-swim-in-rising-water](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -331,6 +332,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0198-house-robber/) | Medium |
 | [0300-longest-increasing-subsequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0396-rotate-function](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0396-rotate-function/) | Medium |
+| [0486-predict-the-winner](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0788-rotated-digits](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0788-rotated-digits/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1092-shortest-common-supersequence/) | Hard |
@@ -490,6 +492,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0048-rotate-image/) | Medium |
 | [0396-rotate-function](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0396-rotate-function/) | Medium |
+| [0486-predict-the-winner](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0788-rotated-digits/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
@@ -574,4 +577,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3312-sorted-gcd-pair-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3312-sorted-gcd-pair-queries/) | Hard |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0486-predict-the-winner](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0486-predict-the-winner](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
 <!---LeetCode Topics End-->
