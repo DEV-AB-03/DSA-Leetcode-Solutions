@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0827-making-a-large-island](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0827-making-a-large-island/) | Hard |
 | [0846-hand-of-straights](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0846-hand-of-straights/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0874-walking-robot-simulation/) | Medium |
+| [0877-stone-game](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0877-stone-game/) | Medium |
 | [0994-rotting-oranges](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0994-rotting-oranges/) | Medium |
 | [1260-shift-2d-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1260-shift-2d-grid/) | Easy |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
@@ -335,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0486-predict-the-winner](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0583-delete-operation-for-two-strings](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0583-delete-operation-for-two-strings/) | Medium |
 | [0788-rotated-digits](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0788-rotated-digits/) | Medium |
+| [0877-stone-game](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0877-stone-game/) | Medium |
 | [1092-shortest-common-supersequence](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1301-number-of-paths-with-max-score](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1301-number-of-paths-with-max-score/) | Hard |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1312-minimum-insertion-steps-to-make-a-string-palindrome/) | Hard |
@@ -495,6 +497,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0486-predict-the-winner](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0788-rotated-digits](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0788-rotated-digits/) | Medium |
+| [0877-stone-game](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0877-stone-game/) | Medium |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1979-find-greatest-common-divisor-of-array/) | Easy |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3014-minimum-number-of-pushes-to-type-word-i/) | Easy |
@@ -585,4 +588,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/0877-stone-game/) | Medium |
 <!---LeetCode Topics End-->
