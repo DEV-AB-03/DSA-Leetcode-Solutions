@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2161-partition-array-according-to-given-pivot](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2161-partition-array-according-to-given-pivot/) | Medium |
 | [2196-create-binary-tree-from-descriptions](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
@@ -234,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1871-jump-game-vii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1871-jump-game-vii/) | Medium |
 | [2075-decode-the-slanted-ciphertext](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2075-decode-the-slanted-ciphertext/) | Medium |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2573-find-the-string-with-lcp/) | Hard |
@@ -581,6 +583,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Segment Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 | [3161-block-placement-queries](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3161-block-placement-queries/) | Hard |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3501-maximize-active-section-with-trade-ii/) | Hard |
 | [3691-maximum-total-subarray-value-ii](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/3691-maximum-total-subarray-value-ii/) | Hard |
@@ -634,4 +637,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1510-stone-game-iv](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/1510-stone-game-iv/) | Hard |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2213-longest-substring-of-one-repeating-character](https://github.com/DEV-AB-03/DSA-Leetcode-Solutions/tree/main/2213-longest-substring-of-one-repeating-character/) | Hard |
 <!---LeetCode Topics End-->
